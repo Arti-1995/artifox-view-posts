@@ -1,0 +1,1 @@
+<h1>ArtiFox View Posts</h1>

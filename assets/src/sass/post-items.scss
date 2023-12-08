@@ -1,0 +1,33 @@
+.artifox-view-post__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.artifox-view-post__item {
+  flex: 0 0 32%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.artifox-view-post__thumbnail {
+
+  & > picture {
+    position: relative;
+    padding-bottom: 60%;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+.artifox-view-post__image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}

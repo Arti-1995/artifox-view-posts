@@ -14,7 +14,7 @@ class View
      */
     public static function render($view, $data = [])
     {
-        $fileName = $view . '.php';
+        $fileName = __DIR__ . '/../views/' . $view . '.php';
 
         ob_start();
         extract( $data );

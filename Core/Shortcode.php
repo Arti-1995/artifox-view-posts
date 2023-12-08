@@ -33,7 +33,7 @@ class Shortcode implements \artifox\ViewPosts\Interfaces\ShortcodeInterface
     {
         $attributes = isset($atts) && !empty($atts) ? $atts : [];
         $this->data = $this->setData($attributes, $content);
-        return View::render(__DIR__ . '/../views/shortcodes/' . $this->shortcodeName, $this->data);
+        return View::render('shortcodes/' . $this->shortcodeName, $this->data);
     }
 
     /**

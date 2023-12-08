@@ -6,6 +6,7 @@ namespace artifox\ViewPosts\Bootstrap;
 
 use artifox\ViewPosts\Interfaces\ModuleInterface;
 use artifox\ViewPosts\Modules\Assets;
+use artifox\ViewPosts\Modules\Footer;
 use artifox\ViewPosts\Modules\Shortcode;
 
 
@@ -29,6 +30,7 @@ class Bootstrap
     public function init(): void {
         $this->initModule(Assets::class);
         $this->initModule(Shortcode::class);
+        $this->initModule(Footer::class);
     }
 
     /**

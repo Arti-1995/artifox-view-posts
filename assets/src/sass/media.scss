@@ -1,0 +1,23 @@
+@media (max-width: 1024px) {
+  .artifox-popup-post__image-wrapper {
+    flex: 0 0 100%;
+  }
+
+  .artifox-popup-post__content {
+    flex: 0 0 100%;
+  }
+
+  .artifox-view-post__item {
+    flex: 0 0 49%;
+  }
+}
+
+@media (max-width: 668px) {
+  .artifox-popup-post__image-wrapper {
+    padding-bottom: 50%;
+  }
+
+  .artifox-view-post__item {
+    flex: 0 0 100%;
+  }
+}
